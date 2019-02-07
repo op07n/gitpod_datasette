@@ -4,4 +4,4 @@ ports:
   - port: 8001
     protocol: "http"
 tasks:
-  - command: "wget 'https://datasette-adcsdgjfvc.now.sh/sf-cell-towers-67ed8ca.db'"
+  - command: "datasette -h 0.0.0.0 -p 8001 sf-cell-towers.db"
