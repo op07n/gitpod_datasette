@@ -1,7 +1,7 @@
 image:
-  file: Dockerfile
+  file: datasetteproject/datasette
 tasks:
   - command: >
       echo "ok"
 ports:
-- port: 8000
+- port: 8001
