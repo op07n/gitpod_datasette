@@ -1,7 +1,0 @@
-image:
-  file: datasetteproject/datasette
-tasks:
-  - command: >
-      echo "ok"
-ports:
-- port: 8001
