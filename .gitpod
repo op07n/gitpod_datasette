@@ -1,0 +1,7 @@
+image:
+  file: Dockerfile
+tasks:
+  - command: >
+      echo "ok"
+ports:
+- port: 8000
