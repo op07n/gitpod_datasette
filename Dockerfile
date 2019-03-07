@@ -1,3 +1,3 @@
-FROM jasonbean/guacamole:latest
+FROM datasetteproject/datasette:latest
 
 USER root
